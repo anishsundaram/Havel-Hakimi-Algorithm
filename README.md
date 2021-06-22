@@ -1,1 +1,1 @@
-README for my implementation of the Havel-Hikimi algorithm for graph realization
+README for my implementation of the Havel-Hakimi algorithm for graph realization
