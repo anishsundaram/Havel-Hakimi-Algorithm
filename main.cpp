@@ -12,7 +12,7 @@
 using namespace std;
 
 int main(){
-    deque<int> temp = {5, 3, 0, 2, 6, 2, 0, 7, 2, 5};
+    deque<int> temp = {6,3,3,3,3,2,2,2,2,1,1};
     havel_hakimi(temp);
     temp = {4, 2, 0, 1, 5, 0};
     havel_hakimi(temp);
