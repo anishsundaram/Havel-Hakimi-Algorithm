@@ -10,6 +10,11 @@ void havel_hakimi(std::deque<int>& hh){
         std::cout << "true" << '\n';
         return;
     }
+    std::sort(hh.begin(),hh.end(), std::greater<int>());
+    if (hh.front() == 0){
+        std::cout<< "true" << '\n';
+        return;
+    }
     while(!hh.empty()){
         for(int i = 0 ; i < hh.size();++i){
             if(hh[i] == 0){
@@ -17,7 +22,7 @@ void havel_hakimi(std::deque<int>& hh){
                 --i;
             }
         }
-        std::sort(hh.begin(),hh.end(), std::greater<int>());
+        
         if(hh.empty()){
             std::cout << "true" << '\n';
             return;
