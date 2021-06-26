@@ -5,6 +5,8 @@ Implementation of the Havel-Hakimi Algorithm for graph realization in C++
 
 ## What is the Havel-Hakimi Theorem/Algorithm?
 
+From [Wikipedia](https://en.wikipedia.org/wiki/Havel%E2%80%93Hakimi_algorithm): "The Havel–Hakimi algorithm is an algorithm in graph theory solving the graph realization problem. That is, it answers the following question: Given a finite list of nonnegative integers in non-increasing order, is there a simple graph such that its degree sequence is exactly this list?"
+
 ## Usage
 
 ## Sample Output
