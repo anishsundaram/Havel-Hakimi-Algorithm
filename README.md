@@ -37,7 +37,7 @@ We repeat the proces and remove the vertex with the next highest degree to get `
 
 We continue the process and decrement the first 2 vertices to get ```{1 , 1 , 1 , 1 , 1 , 1 , 1 , 1}``` and then ```{0 , 0 , 0 , 0 , 0 , 0 , 0 , 0}```. 
 
-This result certifies that the input sequence is graphic, as we are left with a simple graph of 8 isolated vertices. 
+This result certifies that the input sequence is graphic, as we are left with a simple graph of 8 isolated vertices. Thus our output would be a boolean ```True```.
 
 ## Credits
 
