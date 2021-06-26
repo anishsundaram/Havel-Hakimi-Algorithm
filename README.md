@@ -20,7 +20,11 @@ This can be accomplished through processing the inputs as follows:
 
 ## Usage
 
+- First compile using the included Makefile by entering ```make``` into the command line. *Make sure you are in the right directory!*
+- Next run the program by entering ```./havel_hakimi``` into the command line, testing inputs are already present in main.cpp so no input is required
+
 ## Sample Output
+
 
 ## Credits
 
