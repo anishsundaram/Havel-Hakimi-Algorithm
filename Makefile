@@ -1,4 +1,4 @@
-EXECUTABLE  = word_snake
+EXECUTABLE  = havel_hakimi
 
 
 # designate which compiler to use
@@ -9,7 +9,7 @@ SOURCES     = $(wildcard *.cpp)
 # list of objects used in project
 OBJECTS     = $(SOURCES:%.cpp=%.o)
 
-#Default Flags (we prefer -std=c++17 but Mac/Xcode/Clang doesn't support)
+#Default Flags
 CXXFLAGS = -std=c++1z
 
 $(EXECUTABLE): $(OBJECTS)
@@ -21,14 +21,14 @@ $(EXECUTABLE): $(OBJECTS)
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) -c $*.cpp
 
-# make clean - remove .o files, executables, tarball
+# make clean - remove .o files, executables
 clean:
 	rm -f $(OBJECTS) $(EXECUTABLE)
 	rm -Rf *.dSYM
 
 
 
-# ADD YOUR OWN DEPENDENCIES HERE
-word_snake.o: word_snake.cpp
+# ADD DEPENDENCIES
+havel_hakimi.o: main.cpp havel_hakimi.cpp havel_hakimi.h 
 
 .PHONY: clean
